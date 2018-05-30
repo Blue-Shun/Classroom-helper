@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const fs = require("fs");
 
 const config = require("./config.json");
 const strutils = require("./Utilities/StringUtils.js");
@@ -14,8 +13,8 @@ client.on('ready', () => {
 });
 
 client.on('ready', () => {
-var list = client.guilds.array().sort();
-		console.log("Server names: " + list);
+   var list = client.guilds.array().sort();
+console.log("Server names: " + list);
 });
 
 client.on("ready", () => {
@@ -40,4 +39,4 @@ client.on("message", message => {
     }
   });
 
-client.login(process.env.token);
+client.login(process.emv.token);
