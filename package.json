@@ -15,18 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Blue-Shun/TardisFiles-.git"
+    "url": "git+https://github.com/Blue-Shun/Classroom-helper.git"
   },
   "keywords": [
-    "doctor",
-    "who",
-    "discord",
-    "tardis"
+    "classroom"
+    "education"
   ],
   "author": "Blue-Shun",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Blue-Shun/TardisFiles-/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/Blue-Shun/TardisFiles-#readme"
+  "homepage": "https://github.com/Blue-Shun/Classroom-helper#readme"
 }
