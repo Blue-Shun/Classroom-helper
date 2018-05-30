@@ -19,7 +19,7 @@ var list = client.guilds.array().sort();
 });
 
 client.on("ready", () => {
-   client.user.setActivity(`+help | watching ${client.guilds.size} servers`);
+   client.user.setActivity(`c!help | watching ${client.guilds.size} servers`);
 });
 
 client.on("message", message => {
@@ -40,4 +40,4 @@ client.on("message", message => {
     }
   });
 
-client.login(config.token);
+client.login(process.env.token);
