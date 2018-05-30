@@ -5,8 +5,9 @@
   "main": "index.js",
   "engines": {
       "node": "8.x",
-      "discord.js": "^11.3.2",
       "npm": "*"
+  "dependencies": {
+      "discord.js": "^11.3.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
