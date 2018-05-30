@@ -17,10 +17,6 @@
     "type": "git",
     "url": "git+https://github.com/Blue-Shun/Classroom-helper.git"
   },
-  "keywords": [
-    "classroom"
-    "education"
-  ],
   "author": "Blue-Shun",
   "license": "MIT",
   "bugs": {
