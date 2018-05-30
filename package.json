@@ -5,6 +5,7 @@
   "main": "index.js",
   "engines": {
       "node": "8.x",
+      "discord.js": "^11.3.2",
       "npm": "*"
   },
   "scripts": {
