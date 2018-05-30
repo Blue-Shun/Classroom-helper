@@ -1,12 +1,12 @@
 {
-  "name": "classroom helper",
+  "name": "classroomhelper",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
+    "discord.io": "^2.5.3",
     "discord.js": "^11.3.2",
     "discord.js-commando": "^0.10.0",
-    "discord.io": "^2.5.3",
+    "npm": "^6.1.0",
     "winston": "^2.4.2"
   },
   "devDependencies": {},
@@ -15,12 +15,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Blue-Shun/Classroom-helper.git"
+    "url": "git+https://github.com/Blue-Shun/TardisFiles-.git"
   },
+  "keywords": [
+    "classroom",
+    "helper",
+    "education",
+  ],
   "author": "Blue-Shun",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/Blue-Shun/Classroom-helper/issues"
   },
-  "homepage": "https://github.com/Blue-Shun/Classroom-helper#readme"
+  "homepage": "https://github.com/Blue-Shun/Classroom-helper#readme",
+  "description": ""
 }
