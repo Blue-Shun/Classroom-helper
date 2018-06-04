@@ -1,3 +1,3 @@
 exports.run = (client, message, args) => {
-    message.channel.send( "__**Info:**__\n")
+    message.channel.send( "__**Info:**__\n \n*Discord Educational Server*\nFor the good of all, and for the assistance of others.\nIf you ever need help with anything, come on over to the Discord Educational Server.\nHere, we provide a variety of things for everyone:\n+ :musical_note:  Music\n+ :thought_balloon:  General Chatting Rooms\n+ :apple:  Teachers\n+ :straight_ruler: Strong Foundation\n+ :school: Educational Schooling\nFounded by a member who wanted to help others with their homework, we are hiring teachers with specialties in different subjects.\nYou don’t need to be a professional, you just need to know enough to help others!\nWe encourage everyone to join Discord Educational Server, for the good of all, and for the assistance of others.\n https://discord.gg/W5kJ7AC")
 }
