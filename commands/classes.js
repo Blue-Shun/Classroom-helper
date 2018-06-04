@@ -1,6 +1,16 @@
-		exports.run = (client, message, args) => {
-		message.channel.send("__**Help**__\n**ping**\n**ban**\n**kick**")	
-			}
-message.channel.send{ = >
-  `<#449681498715455527>`
-})}
+exports.run = (client, message, args) => {
+    message.author.send({embed: {
+	color: 15215,
+        author: {
+          name: "Classroom Helper",
+          icon_url: client.user.avatarURL
+        },
+        description: "__**Classes:**__\n please see <#449681498715455527>",
+        timestamp: new Date(),
+        footer: {
+          icon_url: message.author.avatarURL,
+          text: `${message.author.username} | Classroom Helper`
+        }
+      }
+    });
+}
